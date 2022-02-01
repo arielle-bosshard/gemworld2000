@@ -27,3 +27,10 @@ const buttonLeft = document.getElementById('slideLeft');
 buttonLeft.onclick = function () {
   document.getElementById('container').scrollLeft -= 20;
 };
+
+//PRELOADER
+
+var loader = document.getElementById('preloader');
+window.addEventListener('load', function(){
+  loader.style.display = "none";
+})
