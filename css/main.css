@@ -138,7 +138,7 @@ textarea {
   }
   ul {
     list-style-type: none;  
-    margin-left: 2em;  
+    margin-left: 1.5em;  
   }
   li {
     padding: 0.5em 0;
@@ -239,6 +239,9 @@ textarea {
   /*** Information styles ***/
   .list-extra {
     padding-left: 24px;
+  }
+  .tab {
+    margin-left: 0.75em;
   }
 
   /*** Project Gallery ***/
