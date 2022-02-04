@@ -302,6 +302,19 @@ textarea {
     margin-top: 2em;
   }
 
+  /*** 404 page styles ***/
+  .lost-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+  }
+  .lost-page img {
+    width: 20%;
+  }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
