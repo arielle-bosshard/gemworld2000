@@ -157,7 +157,7 @@ textarea {
   
   /*** Preloader ***/
   #preloader {
-    background: #B7B7B7 url('../img/logo@40%.png') no-repeat center center;
+    background: #B7B7B7 url('../img/logo-preloader.png') no-repeat center center;
     background-size: 10%;
     height: 100vh;
     width: 100%;
