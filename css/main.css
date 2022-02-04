@@ -157,7 +157,7 @@ textarea {
   
   /*** Preloader ***/
   #preloader {
-    background: #B7B7B7 url('../img/logo.png') no-repeat center center;
+    background: #B7B7B7 url('../img/logo@40%.png') no-repeat center center;
     background-size: 10%;
     height: 100vh;
     width: 100%;
@@ -200,7 +200,7 @@ textarea {
   }
   #logo {
     width: 40%;
-    margin: 20px auto 0 auto;
+    margin: 0 auto;
   }
   h2 {
     text-align: center;
@@ -392,7 +392,7 @@ textarea {
 
 @media only screen and (min-width: 768px) {
   #logo {
-    margin: 30px auto 0 auto;
+    margin: 1em auto 0 auto;
   }
   h2 {
     font-size: 1em;
@@ -418,7 +418,7 @@ textarea {
     width: 80%;
   }
   #logo {
-    margin: 40px auto 0 auto;
+    margin: 2em auto 0 auto;
   }
   h2 {
     font-size: 1.5em;
