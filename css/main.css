@@ -293,6 +293,7 @@ textarea {
   .thirds {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
   .thirds img {
     width: 32%;
