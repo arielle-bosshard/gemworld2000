@@ -292,12 +292,11 @@ textarea {
   /*** Closing Hero ***/
   .thirds {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
   }
   .thirds img {
     width: 32%;
-    height: auto;
     align-self: center;
   }
   .closing-imgs #img13 {
