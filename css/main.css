@@ -262,33 +262,6 @@ textarea {
     width: 300px;
   }
 
-  /* Next & previous buttons */
-  #slideRight, #slideLeft {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    
-  }
-
-  /* Position the "next button" to the right */
-  #slideRight {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-
-  /* On hover, add a black background color with a little bit see-through */
-  #slideRight:hover, #slideLeft:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
   /*** Closing Hero ***/
   .thirds {
     display: flex;
@@ -436,15 +409,6 @@ textarea {
   }
   h2 {
     font-size: 1.5em;
-  }
-  .studio-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  .studio-gallery img {
-    width: 49.8%;
-    height: auto;
   }
   .project-gallery img {
     width: 450px;

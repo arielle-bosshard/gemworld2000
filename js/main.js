@@ -14,19 +14,6 @@ function showSlides() {
   setTimeout(showSlides, 3500); // Change image every 4 seconds
 }
 
-//PROJECT GALLERY SLIDESHOW 
-
-const buttonRight = document.getElementById('slideRight');
-
-buttonRight.onclick = function () {
-  document.getElementById('container').scrollLeft += 20;
-};
-
-const buttonLeft = document.getElementById('slideLeft');
-
-buttonLeft.onclick = function () {
-  document.getElementById('container').scrollLeft -= 20;
-};
 
 //PRELOADER
 
